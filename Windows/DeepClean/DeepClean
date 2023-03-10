@@ -1,0 +1,50 @@
+- WINDOWS DEEP CLEAN -
+
+1 - Open and delete temporary files:
+	win + r -> digit %temp% -> ctrl + a -> shift + del
+
+2 - Delete prefetch content. It will be refilled: 
+	Go to this pc -> Windows -> Prefetch. ctrl + a -> unselect layout file if present -> shift + del
+
+3 - Disable non-Microsoft services that you don't use:
+	win + r -> digit 'msconfig' -> service tab mark -> tick 'hide microsoft service' -> disable others
+
+4 - Reset Store
+	win + r -> digit 'Wsreset'
+
+5 - Look for viruses
+	Download adwcleaner -> https://www.malwarebytes.com/adwcleaner
+	execute adwcleaner.exe
+	clean and check
+
+6 - Reactivate winUpdate service
+	-> find wu.bat text online and run it
+	-> wureset tool (study the options before use it)
+
+7 - fix registry error
+	-> download wiseregistry cleaner (it's more powerful than you believe)
+
+- NEXT STEPS IN ORDER -
+
+8 - Verify your Windows Image
+	open cmd as administrator and run:
+	- dism.exe /online /cleanup-image /restorehealth
+
+9 - Verify your OS against the official Windows Image
+	open cmd as administrator and run:
+	- sfc /scannow
+
+10 - reboot your machine
+
+-----
+
+Procedure by Matteo Mariani.
+https://github.com/trimia
+
+Registered
+https://github.com/trimia
+
+Registered for posterity by Marco Sebastiani.
+https://github.com/Marco177171
+
+March 2023
