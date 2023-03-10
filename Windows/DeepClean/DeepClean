@@ -9,28 +9,28 @@
 3 - Disable non-Microsoft services that you don't use:
 	win + r -> digit 'msconfig' -> service tab mark -> tick 'hide microsoft service' -> disable others
 
-4 - Reset Store
+4 - Reset Store:
 	win + r -> digit 'Wsreset'
 
-5 - Look for viruses
+5 - Look for viruses:
 	Download adwcleaner -> https://www.malwarebytes.com/adwcleaner
 	execute adwcleaner.exe
 	clean and check
 
-6 - Reactivate winUpdate service
+6 - Reactivate winUpdate service (choose one):
 	-> find wu.bat text online and run it
 	-> wureset tool (study the options before use it)
 
-7 - fix registry error
+7 - fix registry error:
 	-> download wiseregistry cleaner (it's more powerful than you believe)
 
 - NEXT STEPS IN ORDER -
 
-8 - Verify your Windows Image
+8 - Verify your Windows Image:
 	open cmd as administrator and run:
 	- dism.exe /online /cleanup-image /restorehealth
 
-9 - Verify your OS against the official Windows Image
+9 - Verify your OS against the official Windows Image:
 	open cmd as administrator and run:
 	- sfc /scannow
 
